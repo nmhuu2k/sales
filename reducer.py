@@ -36,6 +36,6 @@ for line in sys.stdin:
         current_word = word
 
     # do not forget to output the last word if needed!
-if current_word == word:
-    print
-    '%s\t%s' % (current_word, current_count)
+    if current_word == word:
+        print
+        '%s\t%s' % (current_word, current_count)
